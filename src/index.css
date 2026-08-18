@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+     font-family: "Playfair Display", serif;
+}
+.cores{
+    display: flex;
+
+}
+.verde{
+    height: 10px;
+    width: 100%;
+    background-color: rgb(2, 99, 44);
+}
+.amarelo{
+    height: 10px;
+    width: 100%;
+    background-color:rgb(242, 234, 225);
+}
+.vermelho{
+    height: 10px;
+    width: 100%;
+    background-color: rgb(195, 23, 28);
+}
+
+.caixaDeMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    position:sticky;
+    top: 0;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    text-decoration: underline rgb(195, 23, 28);
+    
+}
+
+.menuHamburguer{
+    display: none;
+}
+.menuParaCelular{
+    display: none;
+}
+.input {
+    appearance: none;
+    }
+/* 2 etapa */
+
+.perfil{
+    background: url(img/perfil.png);
+    background-position: center;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+.caixaDePerfil{
+border: solid rgb(242, 234, 225, 0.7);
+height: 300px;
+width: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 10px;
+margin: 5%;
+background-color: rgba(58, 55, 10, 0.267);
+border-radius: 15px;
+}
+.caixaDePerfil h1{
+    padding-bottom: 10px;
+    color: white;
+}
+.descar1{
+    color: rgb(2, 99, 44);
+    font-size: 2.5rem;
+}
+.descar2{
+    color: rgb(195, 23, 28);
+    font-size: 2.5rem;
+}
+
+.caixaDePerfil p{
+   color: white; 
+   padding-bottom:20px ;
+}
+.caixaDePerfil a{
+    background-color: rgb(232, 177, 55);
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* 3 etapa */
+
+.caixaDecarte{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: rgb(219, 198, 170);
+    height:  auto;
+    padding: 20px;
+
+}
+.caixaDecarte section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: solid rgb(56, 35, 27, 0.5);
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(242, 234, 225, 0.5);
+}
+.caixaDecarte h1{
+    font-size: 1.5rem;
+    color: rgb(56, 35, 27);
+
+}
+.destacar3{
+    width:30px;
+    height:30px;
+    color: rgb(2, 99, 44);
+}
+.destacar4{
+    width:30px;
+    height:30px;
+    color: rgb(195, 23, 28);
+}.destacar5{
+    width:30px;
+    height:30px;
+    color: rgb(2, 99, 44);
+}.destacar6{
+    width:30px;
+    height:30px;
+    color: rgb(195, 23, 28);
+}
+
+
+
+
+/* 4etapa */
+
+.destacar7{
+    text-align: center;
+    background-color: rgb(219, 198, 170);
+    padding: 15px;
+    border-top: 1px solid rgb(56, 35, 27, 0.3);
+    font-size: 2.5rem;
+}
+
+.caixaDeCardapio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+    background-color:  rgb(219, 198, 170);
+    border-bottom:1px solid  ;
+    scroll-margin-top: 150px;
+}
+.caixaDeCardapio section{
+    border: solid rgb(56, 35, 27, 0.5);
+    background-color:  rgb(242, 234, 225, 0.5);
+    border-radius: 15px;
+}
+.caixaDeCardapio img{
+    width: 100%;
+    height: 150px;
+    object-fit:fill;
+    border-radius: 14px 14px 0 0;
+}
+.caixaDeCardapio div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    
+}
+.caixaDeCardapio p{
+    max-width: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.caixaDeCardapio a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(232, 177, 55);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* 5 etapa */
+
+.caixaDeHistoria{
+    background-color: rgb(219, 198, 170);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid  ;
+    scroll-margin-top: 80px;
+
+}
+.caixaDeHistoria h1{
+    padding-bottom: 10px;
+    font-size: 2.5rem;
+}
+.caixaDeHistoria p{
+    padding-bottom: 15px;
+    max-width: 700px;
+}
+/* 6 etapa */
+
+.contatoH1{
+    text-align: center;
+    background-color: rgb(219, 198, 170);
+    padding: 10px;
+
+}
+.contatoH2{
+    text-align: center;
+    background-color: rgb(219, 198, 170);
+    padding-bottom: 10px;
+
+}
+.caixaDeContato{
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+gap: 20px;
+background-color: rgb(219, 198, 170);
+padding: 20px;
+scroll-margin-top: 200px;
+
+}
+.cardDeContato{
+    border: solid rgb(56, 35, 27, 0.5);
+    padding: 20px;
+    background-color: rgb(242, 234, 225);
+    border-radius: 15px;
+    
+    
+}
+.cardDeContato div{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    padding-bottom: 15px;
+}
+.cardDeContato a{
+    text-decoration: none;
+    color: black;
+    max-width: 600px;
+    
+
+}
+.destacar8{
+    width: 30px;
+    height: 30px;
+    color: rgb(2, 99, 44);
+}
+
+.destacar9{
+    width: 30px;
+    height: 30px;
+    color: rgb(195, 23, 28);
+}
+
+.caixaDelink{
+    border: solid rgb(56, 35, 27, 0.5);
+    padding: 20px;
+    background-color: rgb(242, 234, 225);
+    border-radius: 15px;
+    
+    
+}
+.caixaDelink p{
+    color: rgb(2, 99, 44);
+    max-width: 130px;
+    padding-bottom: 15px;
+}
+.caixaDelink span{
+    color: rgb(195, 23, 28);
+}
+.destacar10{
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    color: black;
+}
+.destacar11{
+    width: 30px;
+    height: 30px;
+    color: black;
+}
+
+
+
+@media (max-width: 650px) {
+    #deletar{
+        display: none;
+    }
+    .menuHamburguer{
+        display: block;
+        height: 35px;
+        width: 35px;
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        right: -100%;
+        top: 70px;
+        width: 150px;
+        border: solid black;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.6);
+        transition: 0.5s;
+    }
+     :has(.input:checked) .menu {
+    right: 0px;
+    }
+    .menu ul{
+        
+        flex-direction: column;
+       
+       
+    }
+        label {
+    cursor: pointer;
+    }
+
+    .input {
+    appearance: none;
+    }
+   
+    
+
+}
